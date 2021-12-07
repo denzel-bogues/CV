@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+h1 {
+  margin: 3.2rem 0 0;
+  font-family: Sacramento, sans-serif;
+  font-size: 5.625em;
+  color: #00ccff;
+}
+
+h2 {
+  font-size: 1.75em;
+  color: #00ccff;
+}
+
+hr {
+  margin: 4rem auto;
+  width: 6%;
+  border: dotted #f2f2f2 8px;
+  background-color: #fff;
+  border-bottom: none;
+}
+
+.projects {
+  padding: 12%;
+  background-color: #e6ffff;
+  text-align: center;
+}
+
+.project-img {
+  width: 60%;
+  margin-bottom: 2%;
+}
+.project-link{
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #00ccff;
+}
+.project-description{
+  margin-top: 2%;
+}
+
+.top-container {
+  padding-top: 10rem;
+  padding-bottom: 0;
+  margin: 0;
+  background-color: #e6ffff;
+  position: relative;
+  text-align: center;
+}
+
+.middle-container, .skills-container {
+  padding-top: 2%;
+  padding-bottom: 0;
+  margin: 0;
+  position: relative;
+  text-align: center;
+}
+.middle-container {
+  padding: 8% 0 0;
+}
+
+.profile {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.bottom-container {
+  padding: 20px 0 10px;
+  margin: 0 0;
+  position: relative;
+  text-align: center;
+  background-color: #00ccff;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #8affff;
+  margin: 5px 5px;
+  padding: 10px;
+}
+
+.footer-link:hover {
+  color: #f2f2f2;
+}
+
+.copywrite {
+  color: #f2f2f2;
+  font-size: .75rem;
+  margin: 5px 0 0;
+}
+
+.skills {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 70px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  ;
+  left: 350px;
+  bottom: 350px;
+}
+
+.contactMe-container {
+  background-color: #e6ffff;
+  padding: 6%;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn {
+  box-shadow: 0 10px 14px -7px #057080;
+  background: linear-gradient(to bottom, #8affff 5%, #00ccff 100%);
+  background-color: #8affff;
+  border-radius: 6px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #00a7bd;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #8acfff 5%, #00cfff 100%);
+  background-color: #00ccff;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
